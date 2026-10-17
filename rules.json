@@ -1,0 +1,275 @@
+[
+  {
+    "id": "EU-1935-2004",
+    "jurisdiction": "EU",
+    "trigger": {
+      "product": "food",
+      "food_contact": "yes"
+    },
+    "title": "Food Contact Materials \u2014 Regulation (EC) No 1935/2004",
+    "category": "Food contact",
+    "level": "EU",
+    "status": "CHECK",
+    "summary": "Food-contact materials placed on the EU market must meet the general safety framework. The exact requirements depend on the material and intended use.",
+    "evidence": [
+      "Material specification",
+      "Supplier Declaration of Compliance/supporting documentation where applicable",
+      "Intended food/contact conditions"
+    ],
+    "source": {
+      "name": "EUR-Lex \u2014 Regulation (EC) No 1935/2004",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32004R1935"
+    },
+    "verified": "2026-10-17"
+  },
+  {
+    "id": "EU-10-2011",
+    "jurisdiction": "EU",
+    "trigger": {
+      "product": "food",
+      "food_contact": "yes",
+      "material": [
+        "plastic",
+        "composite"
+      ]
+    },
+    "title": "Plastic Food-Contact Materials \u2014 Regulation (EU) No 10/2011",
+    "category": "Food contact",
+    "level": "EU",
+    "status": "CHECK",
+    "summary": "Specific EU requirements apply to plastic materials and articles intended for food contact, including rules concerning authorised substances and migration.",
+    "evidence": [
+      "Exact polymer/layer structure",
+      "Declaration of Compliance",
+      "Relevant migration/testing documentation",
+      "Intended use conditions"
+    ],
+    "source": {
+      "name": "EUR-Lex \u2014 Regulation (EU) No 10/2011",
+      "url": "https://eur-lex.europa.eu/eli/reg/2011/10/oj/eng"
+    },
+    "verified": "2026-10-17"
+  },
+  {
+    "id": "EU-2023-2006",
+    "jurisdiction": "EU",
+    "trigger": {
+      "product": "food",
+      "food_contact": "yes"
+    },
+    "title": "Good Manufacturing Practice \u2014 Regulation (EC) No 2023/2006",
+    "category": "Food contact",
+    "level": "EU",
+    "status": "CHECK",
+    "summary": "GMP rules apply to materials and articles intended to come into contact with food and cover manufacturing, processing and distribution stages.",
+    "evidence": [
+      "Supplier/manufacturer GMP information",
+      "Quality-control/traceability records where relevant"
+    ],
+    "source": {
+      "name": "EUR-Lex \u2014 Regulation (EC) No 2023/2006",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32006R2023"
+    },
+    "verified": "2026-10-17"
+  },
+  {
+    "id": "EU-PPWR-2025-40",
+    "jurisdiction": "EU",
+    "trigger": {
+      "all": true
+    },
+    "title": "Packaging and Packaging Waste \u2014 Regulation (EU) 2025/40 (PPWR)",
+    "category": "Packaging",
+    "level": "EU",
+    "status": "CHECK",
+    "summary": "The PPWR establishes EU-wide packaging and packaging-waste requirements. Applicability and timing depend on the packaging, actor and specific obligation.",
+    "evidence": [
+      "Packaging material and composition",
+      "Packaging mass",
+      "Technical specifications",
+      "Supply-chain role"
+    ],
+    "source": {
+      "name": "EUR-Lex \u2014 Regulation (EU) 2025/40",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32025R0040"
+    },
+    "verified": "2026-10-17"
+  },
+  {
+    "id": "DE-LUCID",
+    "jurisdiction": "Germany",
+    "trigger": {
+      "country": "Germany",
+      "b2c": "yes"
+    },
+    "title": "Germany \u2014 LUCID Packaging Register",
+    "category": "Extended producer responsibility",
+    "level": "Germany",
+    "status": "CHECK",
+    "summary": "If the German market activity falls within the producer obligations, registration in the LUCID Packaging Register and related EPR duties may apply. The exact producer role and packaging classification must be checked.",
+    "evidence": [
+      "Company legal role",
+      "Brand names",
+      "Packaging classification",
+      "LUCID registration details where applicable"
+    ],
+    "source": {
+      "name": "ZSVR \u2014 Registering with LUCID",
+      "url": "https://www.verpackungsregister.org/en/registration/find-out-about-registrations"
+    },
+    "verified": "2026-10-17"
+  },
+  {
+    "id": "DE-SYSTEM",
+    "jurisdiction": "Germany",
+    "trigger": {
+      "country": "Germany",
+      "b2c": "yes",
+      "material": [
+        "plastic",
+        "paper",
+        "glass",
+        "metal",
+        "composite"
+      ]
+    },
+    "title": "Germany \u2014 System participation / packaging EPR",
+    "category": "Extended producer responsibility",
+    "level": "Germany",
+    "status": "CHECK",
+    "summary": "Packaging subject to system participation can require participation in a compliance system and reporting of packaging quantities. Classification depends on the packaging and distribution model.",
+    "evidence": [
+      "Packaging type/classification",
+      "Material and mass in kg",
+      "Distribution channel",
+      "System participation records"
+    ],
+    "source": {
+      "name": "ZSVR \u2014 System participation and data reporting",
+      "url": "https://www.verpackungsregister.org/en/system-participation-data-reporting/overview"
+    },
+    "verified": "2026-10-17"
+  },
+  {
+    "id": "DE-FOREIGN-DIRECT",
+    "jurisdiction": "Germany",
+    "trigger": {
+      "country": "Germany",
+      "b2c": "yes",
+      "foreign_direct": "yes"
+    },
+    "title": "Germany \u2014 Foreign producer / authorised representative check",
+    "category": "Extended producer responsibility",
+    "level": "Germany",
+    "status": "CHECK",
+    "summary": "A company established abroad that sells packaged products directly to end users in Germany without a German branch may need an authorised representative for relevant EPR obligations.",
+    "evidence": [
+      "Place of establishment",
+      "German sales model",
+      "German branch status",
+      "Authorised representative details if required"
+    ],
+    "source": {
+      "name": "ZSVR \u2014 LUCID registration guidance",
+      "url": "https://www.verpackungsregister.org/en/registration/find-out-about-registrations"
+    },
+    "verified": "2026-10-17"
+  },
+  {
+    "id": "EU-CINNAMON-MRL",
+    "jurisdiction": "EU",
+    "trigger": {
+      "product": "cinnamon",
+      "country": "Germany"
+    },
+    "title": "Cinnamon \u2014 EU pesticide residue (MRL) check",
+    "category": "Food safety",
+    "level": "EU",
+    "status": "CHECK",
+    "summary": "Cinnamon is covered by the EU pesticide-residue framework. The applicable maximum residue level depends on the active substance and commodity entry; check the current Commission MRL database before shipment.",
+    "evidence": [
+      "Recent pesticide-residue test report where required by buyer/risk assessment",
+      "Supplier traceability and treatment information",
+      "Commodity and active-substance details"
+    ],
+    "source": {
+      "name": "European Commission \u2014 EU Pesticides Database",
+      "url": "https://food.ec.europa.eu/plants/pesticides/eu-pesticides-database_en"
+    },
+    "verified": "2026-10-17"
+  },
+  {
+    "id": "EU-CINNAMON-PAH",
+    "jurisdiction": "EU",
+    "trigger": {
+      "product": "cinnamon",
+      "country": "Germany"
+    },
+    "title": "Cinnamon \u2014 PAH contamination check",
+    "category": "Food safety",
+    "level": "EU",
+    "status": "CHECK",
+    "summary": "EU contaminant rules set maximum levels for PAHs in dried spices. Cinnamon should be assessed against the applicable current limits and sampling/testing requirements.",
+    "evidence": [
+      "PAH laboratory test where applicable",
+      "Batch traceability",
+      "Processing/drying information"
+    ],
+    "source": {
+      "name": "EUR-Lex \u2014 Regulation (EU) 2023/915",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0915"
+    },
+    "verified": "2026-10-17"
+  },
+  {
+    "id": "EU-CINNAMON-LABEL",
+    "jurisdiction": "EU",
+    "trigger": {
+      "product": "cinnamon",
+      "country": "Germany",
+      "b2c": "yes"
+    },
+    "title": "Prepacked cinnamon \u2014 EU food information / labelling",
+    "category": "Labelling",
+    "level": "EU",
+    "status": "CHECK",
+    "summary": "For prepacked food sold to consumers, general EU food-information rules apply. The exact label depends on the product presentation, ingredients, net quantity, date marking, operator details and other applicable particulars.",
+    "evidence": [
+      "Final artwork/label",
+      "Ingredient and allergen information where applicable",
+      "Net quantity",
+      "Date marking",
+      "Responsible food-business-operator details",
+      "Storage/use instructions where applicable"
+    ],
+    "source": {
+      "name": "European Commission \u2014 Mandatory food information",
+      "url": "https://food.ec.europa.eu/food-safety/labelling-and-nutrition/food-information-consumers-legislation/mandatory-food-information_en"
+    },
+    "verified": "2026-10-17"
+  },
+  {
+    "id": "EU-CINNAMON-HS",
+    "jurisdiction": "EU",
+    "trigger": {
+      "product": "cinnamon",
+      "country": "Germany"
+    },
+    "title": "Cinnamon \u2014 tariff/formality lookup",
+    "category": "Import formalities",
+    "level": "EU",
+    "status": "CHECK",
+    "summary": "Use the product's exact CN/HS classification and origin to determine tariff, customs and import formalities. The tool should not infer a final tariff treatment from the product name alone.",
+    "evidence": [
+      "Exact HS/CN code",
+      "Country of origin",
+      "Customs value",
+      "Incoterms/shipping details"
+    ],
+    "source": {
+      "name": "EU Access2Markets \u2014 My Trade Assistant",
+      "url": "https://trade.ec.europa.eu/access-to-markets/en/my-trade-assistant"
+    },
+    "verified": "2026-10-17"
+  }
+]
